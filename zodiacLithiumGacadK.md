@@ -41,7 +41,7 @@ zodiacNo = get_year(userYear)
 
 
 if zodiacNo == None:
-    print("Invalid year. It should not be earlier than 1900.")
+    print("Invalid year. Please enter a year greater than or equal to 1900.")
 else:
     print("Your Chinese Zodiac sign is:", get_zodiac(zodiacNo)) #Shows the user their zodiac sign
 
